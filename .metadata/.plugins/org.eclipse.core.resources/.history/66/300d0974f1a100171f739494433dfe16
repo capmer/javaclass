@@ -1,0 +1,7 @@
+package triangle;
+
+public class Sort {
+	public static void main(String[] args) {
+		int numbers[] = new int[15];
+	}
+}

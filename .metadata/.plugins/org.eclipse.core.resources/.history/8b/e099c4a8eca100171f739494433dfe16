@@ -1,0 +1,24 @@
+package triangle;
+import java.util.Scanner;
+
+public class Trianlge {
+	public static void main(String[] args) {
+		Scanner line = new Scanner(System.in);
+		int i, j, n;
+		System.out.print("Enter n: ");
+		n = line.nextInt();
+		
+		for(i=1; i<=(2*n+1); i++){
+			for(j=1; j<=i; j++){
+			System.out.print("**");
+		}
+			System.out.print("\n");
+	}
+		for(i=n; i>=1; i--){
+			for(j=1; j<=i; ++j){
+				System.out.print("**");
+			}
+			System.out.print("\n");
+		}
+}
+}

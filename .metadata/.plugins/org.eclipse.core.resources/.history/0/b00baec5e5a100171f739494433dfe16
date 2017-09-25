@@ -1,0 +1,7 @@
+package triangle;
+
+public class Trianlge {
+	public static void main(String[] args) {
+		
+	}
+}
